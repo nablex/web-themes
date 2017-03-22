@@ -1,0 +1,57 @@
+# Fonts 
+font = structure(
+	color: structure(
+		primary: "rgba(0, 0, 0, 0.8)",
+		secondary: "rgba(0, 0, 0, 0.44)",
+		secondaryAccent: "rgba(0, 0, 0, 0.6)",
+		inactive: "rgba(0, 0, 0, 0.32)",
+		disabled: "#ccc"
+	), 
+	family: structure(
+		primary: "'Roboto', sans-serif",
+		secondary: "'Libre Baskerville', serif",
+		monospace: "Monospace"
+	))
+
+levels = structure(
+	info: structure(
+		dark: "#2ECC40", 
+		light: "#d2ffd7"
+	),
+	error: structure(
+		dark: "#DA291C", 
+		light: "#fff"
+	),
+	critical: structure(
+		dark: "#FF4136", 
+		light: "#ffd0ce"
+	),
+	warning: structure(
+		dark: "#FFDC00", 
+		light: "#fff8cb"
+	),
+	trace: structure(
+		dark: "#7FDBFF", 
+		light: "#f2fbff"
+	))
+
+# Borders
+border = structure(
+		color: "#bababa",
+		width: "1px",
+		style: "solid",
+		shadow: "0 0 10px 0 rgba(0,0,0,.0785)",
+		shadowTop: "0 -3px 10px 0 rgba(0,0,0,.0785)",
+		shadowRight: "3px 0 10px 0 rgba(0,0,0,.0785)",
+		shadowAccent: "0 1px 4px rgba(0,0,0,.04)"
+	)
+	
+border = structure(border, apply: lambda(border/style + " " + border/width + " " + border/color))
+
+background = structure(
+	color: structure(
+		primary: "#fff",
+		light: "f3f3f3",
+		accent: "#eaeaea",
+		disabled: "#aaa"
+	))

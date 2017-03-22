@@ -1,0 +1,21 @@
+iconFont ?= "FontAwesome"
+iconSize ?= 14
+
+iconSetter = lambda
+	font-family: ${iconFont}
+	font-size: ${iconSize}px
+
+.n-icon-trash:before {
+	iconSetter()
+	content: "\f1f8";
+}
+
+.n-icon-arrow-down:before {
+	iconSetter()
+	content: "\f107";
+}
+
+.n-icon-chevron-down:before {
+	iconSetter()
+	content: "\f078";
+}
