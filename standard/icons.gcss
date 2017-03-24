@@ -10,12 +10,76 @@ iconSetter = lambda
 	content: "\f1f8";
 }
 
+.n-icon-times:before {
+	iconSetter()
+	content: "\f00d";
+}
+
 .n-icon-arrow-down:before {
 	iconSetter()
 	content: "\f107";
 }
 
+.n-icon-chevron-up:before {
+	iconSetter()
+	content: "\f077";
+}
 .n-icon-chevron-down:before {
 	iconSetter()
 	content: "\f078";
+}
+.n-icon-chevron-left:before {
+	iconSetter()
+	content: "\f053";
+}
+.n-icon-chevron-right:before {
+	iconSetter()
+	content: "\f054";
+}
+
+.n-icon-calendar:before {
+	iconSetter()
+	content: "\f073";
+}
+
+.n-icon-check:before {
+	iconSetter()
+	content: "\f00c";
+}
+
+.n-icon-bold:before {
+	iconSetter()
+	content: "\f032";
+}
+.n-icon-italic:before {
+	iconSetter()
+	content: "\f033";
+}
+.n-icon-table:before {
+	iconSetter()
+	content: "\f0ce";
+}
+.n-icon-link:before {
+	iconSetter()
+	content: "\f0c1";
+}
+.n-icon-underline:before {
+	iconSetter()
+	content: "\f0cd";
+}
+.n-icon-list:before {
+	iconSetter()
+	content: "\f03a";
+}
+.n-icon-indent:before {
+	iconSetter()
+	content: "\f03c";
+}
+.n-icon-outdent:before {
+	iconSetter()
+	content: "\f03b";
+}
+.n-icon-eraser:before {
+	iconSetter()
+	content: "\f12d";
 }
