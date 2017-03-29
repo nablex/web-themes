@@ -83,3 +83,7 @@ iconSetter = lambda
 	iconSetter()
 	content: "\f12d";
 }
+.n-icon-pencil:before {
+	iconSetter()
+	content: "\f040";
+}
