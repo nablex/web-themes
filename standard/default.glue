@@ -1,9 +1,10 @@
 # Fonts 
 font = structure(
 	color: structure(
-		primary: "rgba(0, 0, 0, 0.8)",
-		secondary: "rgba(0, 0, 0, 0.44)",
-		secondaryAccent: "rgba(0, 0, 0, 0.6)",
+		primary: "#000",
+		secondary: "#666",
+		tertiary: "#999",
+		secondaryAccent: "#333",
 		inactive: "rgba(0, 0, 0, 0.32)",
 		disabled: "#ccc"
 	), 
