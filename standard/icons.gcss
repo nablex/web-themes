@@ -9,7 +9,10 @@ iconSetter = lambda
 	iconSetter()
 	content: "\f1f8";
 }
-
+.n-icon-plus:before {
+	iconSetter()
+	content: "\f067";
+}
 .n-icon-times:before {
 	iconSetter()
 	content: "\f00d";
@@ -90,6 +93,18 @@ iconSetter = lambda
 .n-icon-bars:before {
 	iconSetter()
 	content: "\f0c9";
+}
+.n-icon-info-circle:before {
+	iconSetter()
+	content: "\f05a";
+}
+.n-icon-filter:before {
+	iconSetter()
+	content: "\f0b0";
+}
+.n-icon-search:before {
+	iconSetter()
+	content: "\f021";
 }
 
 @keyframes spinner {

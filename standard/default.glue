@@ -6,12 +6,21 @@ font = structure(
 		tertiary: "#999",
 		secondaryAccent: "#333",
 		inactive: "rgba(0, 0, 0, 0.32)",
-		disabled: "#ccc"
+		disabled: "#ccc",
+		contrast: "#fff",
+		contrastSecondary: "#ccc"
 	), 
 	family: structure(
 		primary: "'Roboto', sans-serif",
 		secondary: "'Libre Baskerville', serif",
 		monospace: "Monospace"
+	))
+	
+link = structure(
+	color: structure(
+		primary: "#0064B4",
+		hover: "#CF0039",
+		contrast: "#cee8f6"
 	))
 
 levels = structure(
@@ -60,7 +69,8 @@ background = structure(
 		light: "f3f3f3",
 		accent: "#eaeaea",
 		disabled: "#aaa",
-		header: "#F3F3F5"
+		header: "#F3F3F5",
+		contrast: "#333"
 	))
 
 
