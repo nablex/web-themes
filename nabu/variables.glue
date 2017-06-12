@@ -1,0 +1,1 @@
+border = border + structure(shadow: lambda("4px 4px 4px 4px #ccc"))

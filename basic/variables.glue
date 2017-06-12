@@ -1,0 +1,83 @@
+# Fonts 
+font = structure(
+	color: structure(
+		primary: "#333",
+		accent: "#0064B4",
+		secondary: "#666",
+		accentSecondary: "#333",
+		tertiary: "#999",
+		accentTertiary: "#989898",
+		inactive: "#bbb",
+		disabled: "#ccc",
+		contrast: "#fff",
+		contrastSecondary: "#ccc"
+	), 
+	family: structure(
+		primary: "'Roboto', 'DejaVu Sans', 'Segoe UI', sans-serif",
+		secondary: "'Libre Baskerville', serif",
+		monospace: "Monospace"
+	))
+	
+link = structure(
+	color: structure(
+		primary: font/color/accent,
+		hover: font/color/primary,
+		secondary: font/color/accentSecondary,
+		hoverSecondary: font/color/secondary,
+		tertiary: font/color/accentTertiary,
+		hoverTertiary: font/color/tertiary
+	))
+
+levels = structure(
+	success: structure(
+		dark: "#4AA32C", 
+		light: "#fff"
+	),
+	info: structure(
+		dark: "#0064B4",
+		light: "#fff",
+		darkAccent: "#005090"
+	),
+	error: structure(
+		dark: "#DA291C", 
+		light: "#fff"
+	),
+	critical: structure(
+		dark: "#FF4136", 
+		light: "#fff"
+	),
+	warning: structure(
+		dark: "#FFDC00", 
+		light: "#fff"
+	),
+	trace: structure(
+		dark: "#0064B4", 
+		light: "#fff"
+	))
+
+# Borders
+border = structure(
+		color: "#bababa",
+		colorSecondary: "#ccc",
+		colorTertiary: "#aaa",
+		width: "1px",
+		style: "solid",
+		radius: "15px"
+	)
+	
+border = structure(border, 
+	apply: lambda(border/style + " " + border/width + " " + border/color),
+	shadow: lambda("0 0 10px 0 rgba(0,0,0,.0785)"))
+
+background = structure(
+	color: structure(
+		primary: "#fff",
+		accent: "#fafafa",
+		secondary: "#eaeaea",
+		accentSecondary: "#f3f3f3",
+		tertiary: "#333",
+		accentTertiary: "#f7f7f7",
+		disabled: "#aaa",
+		header: "#F3F3F5",
+		contrast: "#333"
+	))

@@ -1,0 +1,9 @@
+{
+	"name": "basic", 
+	"resources": {
+		"basic.json": {
+			"url": "basic/bundle.json",
+			"type": "bundle"
+		}
+	}
+}
