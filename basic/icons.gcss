@@ -1,113 +1,114 @@
-iconFont ?= "FontAwesome"
-iconSize ?= 14
+icon = structure(font: "FontAwesome", size: 14)
 
-iconSetter = lambda
-	font-family: ${iconFont}
-	font-size: ${iconSize}px
+iconInitialize = lambda
+	font-family: ${icon/font}
+	font-size: ${icon/size}px
+	
+icon = icon + structure(initialize: iconInitialize)
 
 .n-icon-trash:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f1f8";
 }
 .n-icon-plus:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f067";
 }
 .n-icon-times:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f00d";
 }
 
 .n-icon-arrow-down:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f107";
 }
 
 .n-icon-chevron-up:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f077";
 }
 .n-icon-chevron-down:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f078";
 }
 .n-icon-chevron-left:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f053";
 }
 .n-icon-chevron-right:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f054";
 }
 
 .n-icon-calendar:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f073";
 }
 
 .n-icon-check:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f00c";
 }
 
 .n-icon-bold:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f032";
 }
 .n-icon-italic:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f033";
 }
 .n-icon-table:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f0ce";
 }
 .n-icon-link:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f0c1";
 }
 .n-icon-underline:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f0cd";
 }
 .n-icon-list:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f03a";
 }
 .n-icon-indent:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f03c";
 }
 .n-icon-outdent:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f03b";
 }
 .n-icon-eraser:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f12d";
 }
 .n-icon-pencil:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f040";
 }
 .n-icon-bars:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f0c9";
 }
 .n-icon-info-circle:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f05a";
 }
 .n-icon-filter:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f0b0";
 }
 .n-icon-search:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f021";
 }
 .n-icon-database:before {
-	iconSetter()
+	icon/initialize()
 	content: "\f1c0";
 }
 
@@ -121,7 +122,7 @@ iconSetter = lambda
 	position: relative;
 }
 .n-icon-spinner:before {
-	iconSetter()
+	icon/initialize()
 	content: '';
 	box-sizing: border-box;
 	position: absolute;
