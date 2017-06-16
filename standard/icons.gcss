@@ -5,6 +5,8 @@ iconSetter = lambda
 	font-family: ${iconFont}
 	font-size: ${iconSize}px
 
+icon = structure(initialize: iconSetter)
+
 .n-icon-trash:before {
 	iconSetter()
 	content: "\f1f8";

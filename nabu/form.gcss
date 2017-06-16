@@ -1,3 +1,10 @@
+.n-prompt {
+	.n-form, .n-form.classic {
+		width: auto;
+		box-shadow: 4px 4px 4px 4px #777;
+	}
+}
+
 .n-form {
 	width: 50%;
 	max-width: 40rem;
@@ -24,6 +31,12 @@
 	footer {
 		text-align: center;
 		margin: 1rem;
+		&.actions {
+			text-align: right;
+			button {
+				margin: 0 1rem;
+			}
+		}
 	}
 	
 	&.classic {

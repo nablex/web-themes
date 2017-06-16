@@ -1124,10 +1124,6 @@ icon = icon + structure(initialize: iconInitialize)
 	icon/initialize()
 	content: "\f10e";
 }
-.n-icon-spinner:before {
-	icon/initialize()
-	content: "\f110";
-}
 .n-icon-circle:before {
 	icon/initialize()
 	content: "\f111";
