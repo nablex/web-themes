@@ -128,7 +128,7 @@ p.message {
 .row {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: flex-start;
 	
 	.table-header {
@@ -166,6 +166,7 @@ p.message {
 				background-color: #fafafa;
 			}
 			margin: 0;
+
 			border-style: none solid solid solid;
 			> * {
 				flex-grow: 1;
@@ -205,7 +206,6 @@ p.message {
 				.value {
 					text-align: center;
 					font-size: 0.7rem;
-					white-space: nowrap;
 					color: #333;
 				}
 				&.last {
@@ -276,8 +276,7 @@ $h1, h2 {
 
 .card {
 	border: ${border/apply()};
-	margin: 1rem 0rem;
-	margin-bottom: 0;
+	margin: 1rem 1rem;
 	max-width: 33rem;
 	box-shadow: ${border/shadow()};
 	background-color: ${background/color/secondary};
@@ -439,17 +438,19 @@ $h1, h2 {
 }
 
 .tag {
-	background-color: #efefef;
-	font-size: 0.7rem;
+	background-color: #e2e2e2;
+	font-size: 0.55rem;
 	text-transform: uppercase;
-	padding: 0.3rem 0.7rem;
+	padding: 0.18rem 0.7rem;
 	font-weight: bold;
 	margin: 0 0.7rem;
+	display: inline-block;
 }
 
 .n-prompt-content {
 	width: 100%;
 	> section {
+		padding: 1rem;
 		width: 90%;
 		margin: 1rem auto;
 		box-shadow: 4px 4px 4px 4px #777;
