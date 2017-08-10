@@ -27,7 +27,7 @@ body {
 	}
 }
 
-button {
+$button, a.button {
 	padding: 0.7rem 1.5rem;
 	border: none;
 	font-weight: bold;
@@ -243,7 +243,7 @@ p.message {
 		flex-grow: 1;
 		flex-basis: 0;
 		position: relative;
-		button {
+		$button, a.button {
 			position: absolute;
 			padding: 0.4rem;
 			right: 0;
@@ -280,7 +280,7 @@ $h1, h2 {
 	max-width: 33rem;
 	box-shadow: ${border/shadow()};
 	background-color: ${background/color/secondary};
-	button {
+	$button, a.button {
 		padding: 0.7rem;
 		top: 0.7rem;
 		font-size: 0.8rem;
@@ -316,11 +316,11 @@ $h1, h2 {
 		text-transform: uppercase;
 		border: ${border/apply()};
 		border-style: none none solid none;
-		button {
+		$button, a.button {
 			margin-left: 0.5rem;
 		}
 		position: relative;
-		button {
+		$button, a.button {
 			position: absolute;
 			right: 1rem;
 		}
@@ -332,7 +332,7 @@ $h1, h2 {
 		margin: 0;
 		overflow: hidden;
 		position: relative;
-		button {
+		$button, a.button {
 			margin: 0 0.7rem;
 		}
 	}
@@ -407,7 +407,7 @@ $h1, h2 {
 				padding-left: 0.5rem;
 				border-color: #eaeaea;
 			}
-			button {
+			$button, a.button {
 				top: 0.4rem;
 				position: absolute;
 				right: 0;
@@ -462,7 +462,7 @@ section {
 	> .actions {
 		padding: 1rem;
 		text-align: right;
-		button {
+		$button, a.button {
 			margin: 0 1rem;
 		}
 	}

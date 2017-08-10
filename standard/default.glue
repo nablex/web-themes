@@ -66,7 +66,7 @@ border = structure(border, apply: lambda(border/style + " " + border/width + " "
 background = structure(
 	color: structure(
 		primary: "#fff",
-		light: "f3f3f3",
+		light: "#f3f3f3",
 		accent: "#eaeaea",
 		disabled: "#aaa",
 		header: "#F3F3F5",
