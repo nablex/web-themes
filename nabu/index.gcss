@@ -178,7 +178,7 @@
 	
 	table.classic {
 		box-shadow: ${border/shadow()};
-		margin: 20 auto;
+		margin: 2rem auto;
 		width: 90%;
 		border: solid 1px #ccc;
 		border-style: solid solid none none;
