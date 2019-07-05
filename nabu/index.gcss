@@ -108,7 +108,7 @@
 	}
 	.top {
 		position: relative;
-		height: calc(50% - 3rem);
+		height: calc(50vh - 3rem);
 		background-color: #5295bb;
 		background: linear-gradient(to right, #5295bb , #cee8f6);
 		color: #fff;
